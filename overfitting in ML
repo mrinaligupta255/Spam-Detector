@@ -1,0 +1,27 @@
+Overfitting in Machine Learning
+(high variance)(when we have too many features that our training data fit the hypotheseis very well but
+ fail to generalize to new examples)
+Overfitting refers to a model that models the training data too well.(It crams data rather than understanding the data.....)
+ Overfitting occurs when a model is excessively complex, such as having too many parameters relative to
+the number of observations. A model that has been overfit has poor predictive performance, as it overreacts to minor fluctuations in the training data.
+Overfitting happens when a model learns the detail and noise in the training data
+to the extent that it negatively impacts the performance of the model on new data.
+This means that the noise or random fluctuations in the training data is picked up and
+learned as concepts by the model. The problem is that these concepts do not apply to new data
+and negatively impact the models ability to generalize.
+Overfitting is more likely with nonparametric and nonlinear models that have more flexibility
+when learning a target function. As such, many nonparametric machine learning algorithms also include
+parameters or techniques to limit and constrain how much detail the model learns.
+For example, decision trees are a nonparametric machine learning algorithm that is very flexible and is subject
+ to overfitting training data. This problem can be addressed by pruning a tree after it has learned in order to
+remove some of the detail it has picked up.
+ it can be prevented by fitting multiple models and using validation or cross-validation
+ to compare their predictive accuracies on test data.
+Underfitting in Machine Learning
+(no. og features are so small that we are not able to predit well)
+Underfitting refers to a model that can neither model the training data nor generalize to new data.
+An underfit machine learning model is not a suitable model and will be obvious as it will have poor
+ performance on the training data.
+Underfitting is often not discussed as it is easy to detect given a good performance metric.
+The remedy is to move on and try alternate machine learning algorithms. Nevertheless, it does provide a good contrast
+ to the problem of overfitting.
